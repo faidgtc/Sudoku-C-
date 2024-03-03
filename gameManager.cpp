@@ -5,9 +5,9 @@ gameManager::gameManager() {
 
 }
 void gameManager::play() {
-	int counter = 500;
+	int counter = 1000;
 	string name;
-	cout << "Masukan Nama Player" << endl;
+	cout << "Masukan Nama Pemain" << endl;
 	cin >> name;
 	ply.setUsername(name);
 	while (counter--)
