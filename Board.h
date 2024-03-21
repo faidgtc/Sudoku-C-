@@ -30,6 +30,7 @@ public :
 	void displayBoard();
 	void save(string name);
 	//bool validationIndex();
+	void chooseDifficulty()
 
 };
 
