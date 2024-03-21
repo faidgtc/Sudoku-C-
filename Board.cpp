@@ -186,3 +186,13 @@ void Board::displayBoard(){
 void Board::save(string name) {
 	ply.save(name, aBoard);
 }
+
+ void chooseDifficulty() {
+        cout << "Choose difficulty level (1: Easy): ";
+        cin >> difficulty;
+        while (difficulty != 1) {
+            cout << "Invalid choice. Please choose difficulty level 1 (Easy): ";
+            cin >> difficulty;
+        }
+    }
+
